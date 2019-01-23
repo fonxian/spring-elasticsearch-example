@@ -1,6 +1,7 @@
-
-
 完整[项目代码地址](https://github.com/fonxian/spring-elasticsearch-example/tree/master/spring-elasticsearch-example)(https://github.com/fonxian/spring-elasticsearch-example/tree/master/spring-elasticsearch-example)
+
+
+## 一、整合过程
 
 #### 1.引入依赖
 
@@ -130,7 +131,9 @@ public interface BookRepository extends ElasticsearchRepository<Book,String> {
 ```
 
 
-#### 3.使用单元测试测试使用结果
+## 二、单元测试、测试整合结果
+
+#### 2.使用单元测试测试使用结果
 
 创建测试类
 
@@ -255,5 +258,5 @@ public class BookRepositoryTest {
 ![运行结果](https://img2018.cnblogs.com/blog/789766/201901/789766-20190124053715014-1499615926.png)
 
 
-
-
+## 参考文档
+[spring-data-elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)
