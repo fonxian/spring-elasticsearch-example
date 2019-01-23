@@ -1,6 +1,6 @@
-### Spring整合ElasticSearch例子
 
 
+完整[项目代码地址](https://github.com/fonxian/spring-elasticsearch-example/tree/master/spring-elasticsearch-example)(https://github.com/fonxian/spring-elasticsearch-example/tree/master/spring-elasticsearch-example)
 
 #### 1.引入依赖
 
